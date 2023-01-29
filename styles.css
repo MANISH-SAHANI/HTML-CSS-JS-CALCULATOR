@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap');
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+    user-select: none;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+}
+
+.container{
+    border: 2px solid black;
+    width: 400px;
+    padding: 1.5em 1.2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: rgb(22, 22, 22);
+    border-radius: 1.5rem;
+}
+.screen{
+    border: 2px solid black;
+    width: 100%;
+    min-height: 8rem;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    background-color: rgb(43,41,42);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.screen > *{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.prev-screen{
+    color: rgb(184, 173, 173);
+    font-size: 1.4rem;
+    min-height: 2.5rem;
+}
+.curr-screen{
+    font-size: 2.2rem;
+    min-height: 3.9rem;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    gap: 0.7em;
+    height: 5em;
+}
+.btn{
+    border: 2px solid black;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8em;
+    font-size: 1.8rem;
+    font-weight: 300;
+    background-color: rgb(52,52,52);
+    color: white;
+    cursor: pointer;
+}
+
+.row-4-and-5{
+    display: flex;
+    height: 11em;
+    gap: 0.7em;
+}
+.rows{
+    flex: 3.45;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+}
+.sub,
+.pi,
+.mod,
+.divide,
+.mul,
+.add{
+    background-color: rgb(26,67,78);
+}
+.equals{
+    background-color: rgb(3,202,200);
+    font-size: 2rem;
+}
+.del{
+    background-color: rgb(252, 85, 85);
+}
+
+@media (max-height: 674px){
+    .container{
+        transform: scale(0.8);
+    }
+}
