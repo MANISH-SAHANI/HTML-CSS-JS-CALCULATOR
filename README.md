@@ -18,7 +18,3 @@ Preview: https://ms-simple-calculatorr.netlify.app
 You can download or clone the entire repository!
 
 And can open it in any editor of your choice and make changes as necessary!!
-
-
-![cccccccc](https://user-images.githubusercontent.com/91081774/215313987-987d62b5-36d9-4269-91f4-f8aa12019add.png)
-![calcu](https://user-images.githubusercontent.com/91081774/215313989-d92d6f19-6e61-4295-8cc9-ae99f61dabbf.png)
