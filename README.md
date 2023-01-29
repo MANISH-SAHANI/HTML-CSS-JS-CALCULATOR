@@ -8,6 +8,8 @@ Functionality is achieved using Javascript. The logic is very simple with the mi
 
 ## Screenshots
 
+Preview: https://ms-simple-calculatorr.netlify.app
+
 ![calc](https://user-images.githubusercontent.com/91081774/215313588-80a945c9-9a33-4ca1-ad6a-2b6d96eb057d.png)
 
 
